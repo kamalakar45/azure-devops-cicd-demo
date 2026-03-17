@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 server.listen(PORT, HOST, () => {
   // Intentionally concise log line for CI.
-  console.log(`listening on http://${HOST}:${PORT}`);
+  console.log(`listening on http://localhost:3000`);
 });
 
 function shutdown(signal) {
