@@ -123,20 +123,3 @@ Test Suites: 1 passed, 1 total
 Tests:       2 passed, 2 total
 Time:        ~1-5 s
 ```
-
-## Pipeline screenshots
-
-Add your pipeline screenshots to `docs/images/` and update/keep the filenames below.
-
-- **Build Stage Screenshot**
-
-  ![Build Stage Screenshot](docs/images/build-stage.png)
-
-- **Test Stage Screenshot**
-
-  ![Test Stage Screenshot](docs/images/test-stage.png)
-
-- **Deployment Stage Screenshot**
-
-  ![Deployment Stage Screenshot](docs/images/deploy-stage.png)
-
