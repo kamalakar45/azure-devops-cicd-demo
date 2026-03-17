@@ -1,0 +1,31 @@
+{
+  "name": "azure-devops-cicd-demo",
+  "version": "1.0.0",
+  "description": "CI/CD pipeline demo app for Azure DevOps (Node.js + Express + Jest).",
+  "private": true,
+  "main": "app/server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node app/server.js",
+    "dev": "node app/server.js",
+    "lint": "eslint .",
+    "test": "jest",
+    "test:ci": "jest --ci --runInBand --reporters=default --reporters=jest-junit"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.32.0",
+    "jest": "^30.0.5",
+    "jest-junit": "^16.0.0",
+    "supertest": "^7.1.1"
+  },
+  "jest-junit": {
+    "outputDirectory": "test-results",
+    "outputName": "junit.xml"
+  }
+}
